@@ -7,11 +7,9 @@
 
 ## 项目概述
 
-欢迎来到卷积神经网络（CNN）项目！在这一项目中，你将学到如何建立一个处理现实生活中的，用户提供的图像的算法。给你一个狗的图像，你的算法将会识别并估计狗的品种，如果提供的图像是人，代码将会识别最相近的狗的品种。
+在卷积神经网络（CNN）项目中，将学到如何建立一个处理现实生活中的，用户提供的图像的算法。给你一个狗的图像，你的算法将会识别并估计狗的品种，如果提供的图像是人，代码将会识别最相近的狗的品种。在学习用于分类的最先进的 CNN 模型的同时，你将会为用户体验做出重要的设计与决定。
 
-![Sample Output][image1]
-
-在学习用于分类的最先进的 CNN 模型的同时，你将会为用户体验做出重要的设计与决定。我们的目标是，当你完成这一项目时，你将可以理解，通过将一系列模型拼接在一起，设计数据处理管道完成各式各样的任务所面临的挑战。每个模型都有它的优点与缺点，并且设计实际应用时，经常会面对解决许多没有最优解的问题。尽管你的解答不是最优的，但你的设计将带来愉快的用户体验！
+我们的目标是，通过将一系列模型拼接在一起，设计数据处理管道完成各式各样的任务所面临的挑战。了解每个模型都有它的优点与缺点，并且设计实际应用时，经常会面对解决许多没有最优解的问题。
 
 
 ## 项目指南
@@ -56,20 +54,39 @@ cd cn-deep-learning/dog-project
 jupyter notebook dog_app.ipynb
 ```
 
-__注意：__ 我们虽然已经实现了一些代码，让你更快地开始工作，你仍需要实现额外的功能，以回答 notebook 中所有的问题。
-__除非有要求，否则不要修改任何已经包含的代码。__
+### REFERENCE
+**相关参考**
+- [CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/)
+- [Using Convolutional Neural Networks to Classify Dog Breeds](http://cs231n.stanford.edu/reports/2015/pdfs/fcdh_FinalReport.pdf)
+- [Building an Image Classifier](https://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Ftowardsdatascience.com%2Flearning-about-data-science-building-an-image-classifier-part-2-a7bcc6d5e825)
+- [Tips/Tricks in CNN](http://lamda.nju.edu.cn/weixs/project/CNNTricks/CNNTricks.html)
+- [Transfer Learning using Keras](https://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Ftowardsdatascience.com%2Ftransfer-learning-using-keras-d804b2e04ef8)
 
-## 项目评审
+**相关论文**
+- [[VGG16] VERY DEEP CONVOLUTIONAL NETWORKS FOR LARGE-SCALE IMAGE RECOGNITION](https://arxiv.org/abs/1409.1556)
+- [[Inception-v1] Going deeper with convolutions](https://arxiv.org/abs/1409.4842)
+- [[Inception-v3] Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/abs/1512.00567)
+- [[Inception-v4] Inception-ResNet and the Impact of Residual Connections on Learning](https://arxiv.org/abs/1602.07261)
+- [[ResNet] Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
+- [[Xception] Deep Learning with Depthwise Separable Convolutions](https://arxiv.org/abs/1610.02357)
 
-你的项目将会由优达学城的审阅者依据次项目的[评审标准](https://review.udacity.com/#!/rubrics/1080/view)进行审阅。请仔细阅读，并在提交之前自我评估你的项目。你必须通过了规则中的所有要求，才会审核通过。
 
-## 项目提交
+### 项目反思
 
-当你准备好提交你的项目时，将下列文件整理并压缩成一个文件，以便上传。
+完成此项目的过程也是一个探索的过程，项目展现的是神经网络学习的冰山一角，剩下的还需要自己去探索和学习。  
 
-- 代码完整可运行的文件 `dog_app.ipynb`，所有的代码块都要执行并展示结果，并要求回答所有问题
-- 将你的 notebook 导出为 HTML 或 PDF 格式，并以 `report.html` 或是 `report.pdf` 命名
-- 任何用于项目中，并且并非由我们为这一项目提供的额外数据图片。
-__请不要将 `dogImages/` 或是 `lfw/` 文件夹中的项目数据包含在内，同样的，请不要将 `bottleneck_features/` 文件夹包含在内。__
 
-此外，你也可以通过 GitHub 连接提交项目。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
